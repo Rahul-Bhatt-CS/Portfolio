@@ -1,0 +1,225 @@
+*{
+text-decoration: none;
+margin: 0%;
+font-family: Calibri;
+padding: 0%;
+}
+.Div_nav{
+display:flex;
+flex-direction:row;
+align-items: center;
+justify-content: space-between;
+}
+ul{
+    padding: 10px;
+    margin-left: 10px;
+}
+li{
+    margin-top: 10px ;
+    list-style: none;
+    display: inline-block;
+}
+li a{
+    color: rgba(163, 163, 163, 0.5);
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: normal;
+    padding: 4px;
+}
+.Div_nav li + li::before{
+    content: "|";
+    display: inline-block;
+    color: white;
+    padding:1rem;
+    font-size: x-small;
+}
+.name{
+    border-right: 2px solid lightgray;
+    padding: 4px;
+    color:black;
+    font-size: 15px;
+    margin-left: 20px;
+    font-weight:550;
+    letter-spacing: 8px;
+}
+header{
+    display: flex;
+    align-items: center;
+    background-color: rgba(128, 128, 128, 0.2);
+    border-bottom: 1px solid white;
+}
+/* Body */
+
+body{
+    background-color: #08233b;
+}
+#sepration{
+    letter-spacing: -1px;
+    font-weight: 100;
+    color: lightgray;
+}
+.name_discription{
+    color:rgba(170, 170, 170, 0.619);
+    font-size: 25px;
+    margin-left: 20px;
+    font-weight:550;
+    letter-spacing: 8px;
+}
+.name_discription_container{
+    padding-top: 20px;
+
+}
+#about_me{
+    font-size: 16px;
+    letter-spacing: 2px;
+    margin-top: 30px;
+}
+#about_text{
+    color: white;
+    font-size: 13px;
+    letter-spacing: 1px;
+    font-weight: 400;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+.mail{
+    color:white;
+    font-size: 20px;
+    margin-left: 20px;
+    font-weight: 200;
+    text-decoration: underline dotted;
+    letter-spacing: 4px;
+}
+.main{
+    margin-left: 40px;
+    display: flex;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: center;
+    height: 100%;
+    width: 25vw;
+    padding: 40px;
+}
+img{
+    border-radius: 50%;
+    width: 250px;
+    transition: transform 1s ease-in-out;
+    overflow: hidden;
+}
+img:hover{
+    transform: rotateY(360deg) scale(1.2);
+    transition-duration: 2s;  
+    transition-timing-function: ease-in-out;
+}
+.Heading{
+    font-size: 30px;
+    color:black;
+    letter-spacing: 4px;
+    font-weight:600;
+    padding: 15px;
+}
+#about_Site_Container{
+    margin-top: 20px;
+}
+#string{
+    color: white;
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 400;
+    margin-top: 10px;
+}
+#for_flex{
+    display: flex;
+    flex-direction: column;
+}
+#d2{
+    margin-top: 0;
+}
+#form_heading{
+    margin-top: 0px;
+}
+
+.text_link{
+    color: white;
+    text-decoration-line: underline;
+    text-decoration-style: dotted;
+}
+.description{
+    border: 1px solid white;
+    height:max-content;
+    margin-top: 40px;
+    margin-left: 0px;
+    background-color: rgba(128, 128, 128, 0.2);
+    width: 58vw;
+    padding: 40px;
+}
+
+
+/* Form */
+
+#form_container{
+    font-family: calibri;
+    font-size: 18px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 15px;
+    padding-top: 30px;
+    color: rgba(255, 255, 255, 0.619);
+}
+
+.form_item{
+    padding-top: 10px;
+    justify-content: space-between;  
+}
+#name_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#mail_container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+#tel{
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 10px;
+    width: 19vw;
+    padding: 1%;
+    width:97%;
+}
+#fname{
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 10px;
+    width: 19vw;
+    padding: 1%;
+    width:97%;
+}
+#subject{
+    border-radius: 10px;
+    max-width:100%;
+    max-height: 700px;
+    background-color: rgba(128, 128, 128, 0.2);
+    padding: 1%;
+}
+#email{
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 10px;
+    width: 19vw;
+    padding: 1%;
+    width:97%;
+}
+#submit_button{
+    background-color: rgba(128, 128, 128, 0.2);
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.619);
+    border: 2px solid rgba(255, 255, 255, 0.619);
+    margin-top: 20px;
+    width: 100%;
+    padding: 1%;
+}
