@@ -1,7 +1,7 @@
 const cursor = document.querySelector('.cursor');
 document.addEventListener('mousemove',(e) => {
-cursor.style.left = e.clientX + 'px';
-cursor.style.top = e.clientY + 'px';
+cursor.style.left = e.screenX + 'px';
+cursor.style.top = e.screenY + 'px';
 })  
     function checkData(){
         var fname = document.getElementById("fname");
