@@ -1,3 +1,8 @@
+const cursor = document.querySelector('.cursor');
+document.addEventListener('mousemove',(e) => {
+cursor.style.left = e.pageX + 'px';
+cursor.style.top = e.pageY + 'px';
+})  
     function checkData(){
         var fname = document.getElementById("fname");
         var lname = document.getElementById("subject");
