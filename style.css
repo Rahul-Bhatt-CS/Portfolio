@@ -224,3 +224,16 @@ img:hover{
     width: 100%;
     padding: 1%;
 }
+
+/*  cursor  */
+.cursor{
+    position: fixed;
+    width: 90px;
+    height: 90px;
+    border-radius: 50%;
+    background: white;
+    transition: 0s;
+    pointer-events: none;
+    transform: translate(-50%,-50%);
+    mix-blend-mode: difference;
+}
