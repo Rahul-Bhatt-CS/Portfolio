@@ -234,6 +234,6 @@ img:hover{
     background: white;
     transition: 0s;
     pointer-events: none;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%,-150%);
     mix-blend-mode: difference;
 }
